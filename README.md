@@ -269,13 +269,13 @@ results/
 
 ## 推理效果展示
 
-![Result](results/result_cardboard1.jpg)
+![Result](result_cardboard1.jpg)
 
-![Result](results/result_glass1.jpg)
+![Result](result_glass1.jpg)
 
-![Result](results/result_metal4.jpg)
+![Result](result_metal4.jpg)
 
-![Result](results/result_paper8.jpg)
+![Result](result_paper8.jpg)
 
 ---
 
