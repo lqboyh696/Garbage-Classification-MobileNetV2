@@ -1,0 +1,119 @@
+﻿# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 编译/打包文件
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# PyCharm IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code IDE
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 数据集目录（体积较大，不包含在版本控制中）
+garbage-classification/
+
+# 训练结果中的模型文件（体积较大）
+train_result/*.pth
+train_result/*.pt
+train_result/*.ckpt
+
+# 训练日志和曲线图（保留用于实验追踪，如需忽略请取消注释）
+# train_result/train_log.csv
+# train_result/loss_curve.png
+# train_result/acc_curve.png
+
+# 预测输入输出图片（保留 .gitkeep 以维持目录结构）
+inputs/*
+!inputs/.gitkeep
+results/*
+!results/.gitkeep
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+*.temp
+*~
+
+# Windows
+$RECYCLE.BIN/
+System Volume Information/
+
+# Python 调试和测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE 其他配置
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# 数据科学相关
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# CUDA 缓存
+.cuda_cache/
+
+# 分布式训练文件
+*.tar
+*.weights
+
+# 导出文件
+*.onnx
+*.pb
+*.tflite
